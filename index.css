@@ -159,6 +159,17 @@ span {
 	text-align: center;
 }
 
+.album-h4 {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.album-p4 {
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+	text-align: center;
+}
+
 
 /*Projects Section Start*/
 
@@ -303,6 +314,23 @@ span {
 
 .close-button:hover {
     background-color: #555;
+}
+
+
+
+/* Add this CSS code for styling the album containers */
+#album1,
+#album2,
+#album3 {
+    border: 2px solid #ffffff; /* Set the border properties */
+    border-radius: 15px; /* Optional: Add border-radius for rounded corners */
+    padding: 10px; /* Optional: Add padding for space inside the border */
+}
+
+/* Add this CSS code for styling the carousel images */
+.carousel-inner img {
+    width: 100%; /* Ensure images fill the carousel container */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
 }
 
 
